@@ -15,3 +15,4 @@ $foundationPalette:(
 
 body{color: $fontColor; font:{size: $fontSize; family:$fontFamily;} line-height: $line-height}
 #main{width: 100%; max-width: $siteMaxWidth;}
+a{text-decoration: none;}
