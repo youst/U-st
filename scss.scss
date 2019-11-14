@@ -1,0 +1,17 @@
+$siteMaxWidth: 960px;
+$fontColor: #333;
+$linkColor: #fc0;
+$fontFamily: Arial, san-serif;
+$fontSize: 16px;
+$line-height: percentage(20px/$fontSize);
+
+$foundationPalette:(
+    primary: #E44347,
+    mars:#d7525c,
+    saturn:#e48884,
+    neptune:#5147d7
+);
+.mars{color: map-get($foundationPalette, mars);}
+
+body{color: $fontColor; font:{size: $fontSize; family:$fontFamily;} line-height: $line-height}
+#main{width: 100%; max-width: $siteMaxWidth;}
